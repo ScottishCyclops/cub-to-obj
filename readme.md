@@ -1,10 +1,12 @@
 # CUB to OBJ exporter
 
+![Example in Blender 2.8](/blender-example.png)
+
 This is a small script that takes in a .cub file from the game **Cube World** and turns it into a .obj and .mtl file
 
-The goal is to be able to import the Cube World data into any 3D Program, such as [Blender](https://blender.org).
+The goal is to be able to import Cube World data into any 3D Program, such as [Blender](https://blender.org).
 
-It creates an OBJ object per material (color). Every cube is exported. That means you can remove/add cubes easily, or merge the overlapping vertices to keep only the minimum amount of data.
+It creates an OBJ object per material (color). But every cube is exported. That means you can remove/add cubes easily, or merge the overlapping vertices to keep only the minimum amount of data.
 
 ## Usage
 
